@@ -1,6 +1,5 @@
 <script lang="ts">
     import { Drawer, drawerStore } from '@skeletonlabs/skeleton';
-    import type { DrawerSettings } from '@skeletonlabs/skeleton';
 	import MainMenu from './MainMenu.svelte';
 </script>
 
