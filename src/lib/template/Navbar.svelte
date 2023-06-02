@@ -1,10 +1,11 @@
 <script lang="ts">
     import MainMenu from './MainMenu.svelte';
     import { drawerStore } from '@skeletonlabs/skeleton';
+    import { base } from '$app/paths';
 </script>
 
 <div class="bg-surface-200 text-surface-800 dark:bg-surface-800 dark:text-surface-200 flex flex-row justify-between text-center align-bottom">
-    <div><a class="btn" href="/">Logo</a></div>
+    <div><a class="btn" href="{base}/">Logo</a></div>
     <div class=" invisible sm:invisble md:visible lg:visible">
         <MainMenu /> 
     </div>
