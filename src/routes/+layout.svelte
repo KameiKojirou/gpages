@@ -2,10 +2,12 @@
     import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
     import '@skeletonlabs/skeleton/styles/skeleton.css';
     import '../styles/app.scss';			
-	import Navigation from '$lib/template/Navigation.svelte';
+	import Navbar from '$lib/template/Navbar.svelte';
+    import DrawerMenu from '$lib/template/DrawerMenu.svelte';
 </script>
 
-<Navigation />
+<DrawerMenu />
+<Navbar />
 <div>
 	<slot />
 </div>
