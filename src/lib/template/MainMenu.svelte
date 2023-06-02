@@ -2,6 +2,6 @@
     import { base } from '$app/paths';
 </script>
 
-<a href="{base}/">Home</a>
-<a href="{base}/blog">Blog</a>
-<a href="{base}/about">About</a>
+<a class="btn" href="{base}/">Home</a>
+<a class="btn" href="{base}/blog">Blog</a>
+<a class="btn" href="{base}/about">About</a>
