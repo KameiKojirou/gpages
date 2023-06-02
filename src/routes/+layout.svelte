@@ -1,18 +1,12 @@
 
 
 <script lang="ts">
-
-    import { base } from '$app/paths';
-
+    import Navigation from '$lib/template/Navigation.svelte';
 </script>
 
  
 
-<nav>
-
-    <a href="{base}/">Home</a>
-
-    <a href="{base}/about">About</a>
-
-</nav>
-
+<Navigation />
+<div>
+    <slot />
+</div>
